@@ -21,7 +21,7 @@ radi:
 provera:
 	cmpl $0, %ebx
 	je sledeci
-	ja radi
+	ja radi 
 
 sledeci:
 	movl %eax, %ebx	#b = 4
